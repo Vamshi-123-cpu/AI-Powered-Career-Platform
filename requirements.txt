@@ -1,7 +1,6 @@
-# Core Streamlit and Web Framework
+# Core Streamlit
 streamlit>=1.28.0
 streamlit-authenticator>=0.2.3
-streamlit-extras>=0.3.0
 
 # Document Processing
 pdfplumber>=0.9.0
@@ -10,7 +9,6 @@ PyMuPDF>=1.23.0
 docx2txt>=0.8
 
 # AI and NLP
-spacy>=3.4.0,<3.7.0
 sentence-transformers>=2.2.2
 openai>=1.0.0
 requests>=2.31.0
@@ -18,7 +16,7 @@ requests>=2.31.0
 # Data Science and ML
 scikit-learn>=1.3.0
 pandas>=2.0.0
-numpy>=1.21.0,<1.25.0
+numpy>=1.26.0
 h5py>=3.7.0
 
 # Visualization
@@ -26,17 +24,12 @@ plotly>=5.15.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 
-# PDF Generation and Reports
+# PDF Generation
 reportlab>=4.0.0
-fpdf2>=2.7.0
 
-# Environment and Configuration
+# Environment and Config
 python-dotenv>=1.0.0
 
-# Authentication and Database
-firebase-admin>=6.2.0
-
-# Additional Utilities
+# Utilities
 Pillow>=10.0.0
-python-multipart>=0.0.6
 validators>=0.20.0
